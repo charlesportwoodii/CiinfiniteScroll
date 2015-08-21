@@ -46,6 +46,7 @@ class CiinfiniteScroll extends CBasePager
 
     public function init()
     {
+        Yii::setPathOfAlias('ext.yiinfinite-scroll.assets', Yii::getPathOfAlias('vendor.charlesportwoodii.ciinfinite-scroll.assets'));
         $this->getPages()->validateCurrentPage = false;
         $this->_options['loadingImg'] = Yii::app()->baseUrl.'/images/infinite-loading.gif';
         parent::init();
