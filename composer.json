@@ -1,0 +1,13 @@
+{
+    "name": "charlesportwoodii/ciinfinite-scroll",
+    "description": "Infinite Scroll extension for CiiMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Charles R. Portwood II",
+            "email": "charlesportwoodii@ethreal.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
